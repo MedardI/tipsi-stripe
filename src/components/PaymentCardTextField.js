@@ -5,11 +5,14 @@ import {
   StyleSheet,
   View,
   TouchableWithoutFeedback,
-  ViewPropTypes,
   Platform,
 } from 'react-native'
 import PropTypes from 'prop-types'
 import { TextInput } from 'react-native';
+
+import {
+  ViewPropTypes,
+} from 'deprecated-react-native-prop-types';
 
 const { State: TextInputState } = TextInput;
 
